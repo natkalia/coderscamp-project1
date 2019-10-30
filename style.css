@@ -18,6 +18,26 @@
   padding: 0 54px;
 }
 
+.section {
+  padding: 36px 0;
+}
+
+.section-description {
+  color: var(--text-dark-color);
+  text-align: left;
+  padding: 20px 0;
+}
+
+.section-heading {
+  font-family: var(--heading-font);
+  font-size: 3rem;
+}
+
+.section-subheading {
+  font-family: var(--text-font);
+  font-size: 2rem;
+}
+
 /* Variables */
 :root {
   --main-bg-color: white;
@@ -70,14 +90,6 @@
 }
 
 /* Skills */
-.section-description {
-  font-family: var(--heading-font);
-  font-size: 2rem;
-  color: var(--text-dark-color);
-  text-align: left;
-  padding: 20px 0;
-}
-
 .skills-content {
   padding: 10px;
   display: flex;
