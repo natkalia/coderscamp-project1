@@ -4,3 +4,15 @@
   margin: 0;
   padding: 0;
 }
+
+/* Variables */
+:root {
+  --main-bg-color: white;
+  --second-bg-color:  lightgrey;
+
+  --text-font: "Inconsolata", monospace;
+  --heading-font: "Montserrat", sans-serif;
+
+  --text-dark-color: black;
+  --text-light-color: white;
+}
