@@ -12,6 +12,12 @@
   background-attachment: fixed;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 54px;
+}
+
 /* Variables */
 :root {
   --main-bg-color: white;
