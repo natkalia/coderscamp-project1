@@ -68,3 +68,58 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Skills */
+.section-description {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  color: var(--text-dark-color);
+  text-align: left;
+  padding: 20px 0;
+}
+
+.skills-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: var(--main-bg-color);
+  color: var(--text-dark-color);
+  border: solid 8px var(--text-dark-color);
+  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+}
+
+.skills-card-outer {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-icon {
+  align-self: center;
+  padding-left: 16px;
+  padding-top: 12px;
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  font-size: 40px;
+  border: solid 8px var(--text-dark-color);
+  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+}
+
+.card-title {
+  margin: 20px 0;
+  align-self: center;
+  font-family: var(--heading-font);
+  font-size: 1.5rem;
+  color: var(--text-dark-color);
+}
+
+.card-wording {
+  font-size: 1.2rem;
+  font-family: var(--text-font);
+  color: var(--text-dark-color);
+}
