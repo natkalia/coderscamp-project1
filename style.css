@@ -165,3 +165,27 @@
   display: block 
 }
 
+/* Contact */
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+  background: var(--main-bg-color);
+  color: var(--text-dark-color);
+  border: solid 8px;
+  border-color: var(--text-dark-color);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+}
+
+.contact-card-outer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-image {
+  height: 400px;
+  filter: contrast(120%) saturate(0); 
+}
