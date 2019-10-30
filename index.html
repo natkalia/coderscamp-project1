@@ -94,9 +94,16 @@
           <h3 class="section-subheading">You can use this form to contact me:</h3>
         </div>
         <div class="contact-content">
-          <form class="contact-card-outer">
-            <input>
-            <textarea></textarea>
+          <form class="contact-card-outer" action="" method="">
+            <label for="username">your name</label>
+            <input type="text" id="username" placeholder="your name" required>
+            <label for="useremail">your e-mail</label>
+            <input type="email" id="useremail" placeholder="your e-mail" required>
+            <label for="usersubject">subject</label>
+            <input type="text" id="usersubject" placeholder="subject" required>
+            <label for="usermessage">your message goes here</label>
+            <textarea id="usermessage" rows="5" cols="40" placeholder="your message goes here" required></textarea>
+            <a href="#" class="btn">submit</a>
           </form>
           <div class="contact-card-outer">
             <img class="contact-image" src="assets/no-worries.jpg" alt="website author">
