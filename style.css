@@ -177,17 +177,60 @@
   border: solid 8px;
   border-color: var(--text-dark-color);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  font-family: var(--text-font);
+  color: var(--text-dark-color);
+  font-size: 1.5rem;
 }
 
 .contact-card-outer {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
+  justify-content: center;
 }
 
 .contact-image {
   height: 400px;
   filter: contrast(120%) saturate(0); 
+}
+
+input, textarea {
+  display: block;
+  border: none;
+  border-bottom: 3px solid var(--text-dark-color);
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+input {
+  height: 30px;
+}
+
+textarea {
+  resize: vertical;
+  font-size: 1.2rem;
+}
+
+::placeholder {
+  color: var(--text-light-color);
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-dark-color);
+  border: solid 8px;
+  font-family: var(--text-font);
+  font-weight: 700;
+  border-color: var(--text-dark-color);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 /* Footer */
