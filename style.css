@@ -67,12 +67,13 @@
 .nav-link {
   margin: 4px 8px;
   padding: 4px 8px;
-  border: solid 1px var(--text-dark-color);
   font-size: 24px;
   text-decoration: none;
   font-weight: 700;
   font-family: var(--heading-font);
   color: var(--text-dark-color);
+  border: solid 8px var(--text-dark-color);
+  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
 }
 
 .welcome-headings {
