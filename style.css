@@ -189,3 +189,35 @@
   height: 400px;
   filter: contrast(120%) saturate(0); 
 }
+
+/* Footer */
+.footer-outer {
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  font-size: 0;
+  padding: 10px;
+  transition: transform 1s linear;
+}
+
+.social-icon {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--text-dark-color);
+  color: var(--text-light-color);
+}
+
+.social-icon:hover {
+  transform: scale(1.4);
+}
