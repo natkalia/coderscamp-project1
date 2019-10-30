@@ -136,3 +136,32 @@
   font-family: var(--text-font);
   color: var(--text-dark-color);
 }
+
+/* Projects */
+.projects-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:
+}
+
+.projects-card-outer {
+  margin: 20px 0;
+  width: 46%;
+  max-height: 340px;
+  background: var(--main-bg-color);
+  color: var(--text-dark-color);
+  border: solid 8px var(--text-dark-color);
+  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  overflow: hidden;
+}
+
+.projects-image {
+  width: 110%;
+  object-fit: cover;
+  height: 120%;
+  display: block 
+}
+
