@@ -136,7 +136,7 @@
   padding: 10px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-around;
   background: var(--light-color);
   color: var(-dark-color);
   border: solid 8px var(--dark-color);
@@ -315,4 +315,50 @@ textarea {
 
 .social-icon:hover {
   transform: scale(1.4);
+}
+
+
+/* Media */
+@media (max-width: 767px) {
+
+  /*Global*/
+  .wrapper {
+    background-position: left;
+    /* animation: none; */
+  }
+
+  /* About */
+  .about-content {
+    flex-direction: column;
+  }
+
+  .box-text {
+    order: 2;
+    width: 100%;
+  }
+  .box-image {
+    order: 1;
+    width: 100%;
+  } 
+
+  /* Skills */
+  .skills-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .skills-card-outer {
+    width: 100%;
+  }
+
+  /* Projects */
+  .projects-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects-card-outer {
+    width: 100%;
+  }
 }
