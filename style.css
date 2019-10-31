@@ -117,6 +117,7 @@
 
 .box-image img {
   max-width: 100%;
+  filter: grayscale(100%) contrast(170%);
 }
 
 /* Skills */
