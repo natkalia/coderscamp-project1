@@ -15,11 +15,17 @@
   padding: 0;
 }
 
+@keyframes move-background {
+	0% { background-position: 0% 0% }
+  100% { background-position: 25% 25% }
+}
+
 .wrapper {
   height: 100%;
   background-image: url("https://images.unsplash.com/photo-1531214159280-079b95d26139?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-attachment: fixed;
+  animation: move-background 2s ease-out forwards;
 }
 
 .container {
@@ -82,6 +88,7 @@
 }
 
 .welcome-headings {
+  width: 100%;
   text-align: center;
   color: var(--dark-color);
   font-family: var(--heading-font);
@@ -92,7 +99,7 @@
 }
 
 .page-heading {
-  font-size: 3.5rem;
+  font-size: 3rem;
   position: absolute;
   top: 40%;
   left: 50%;
