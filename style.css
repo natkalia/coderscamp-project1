@@ -178,6 +178,7 @@
 }
 
 .projects-card-outer {
+  position: relative;
   margin: 20px 0;
   width: 46%;
   max-height: 340px;
@@ -188,11 +189,37 @@
   overflow: hidden;
 }
 
-.projects-image {
-  width: 110%;
+.projects-content img {
+  width: 105%;
+  height: 105%;
   object-fit: cover;
-  height: 120%;
-  display: block 
+  display: block;
+}
+
+.card-text {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.card-text p {
+  font-family: var(--text-font);
+  color: var(--text-light-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.projects-card-outer:hover .card-text {
+  display: inline-block;
 }
 
 /* Contact */
