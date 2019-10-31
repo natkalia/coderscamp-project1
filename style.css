@@ -97,6 +97,30 @@
   transform: translate(-50%, -50%);
 }
 
+/* About */
+.about-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-bg-color);
+  color: var(--text-dark-color);
+  border: solid 8px var(--text-dark-color);
+  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  font-family: var(--text-font);
+  color: var(--text-dark-color);
+  font-size: 1.5rem;
+}
+
+.box-text, .box-image {
+  width: 50%;
+}
+
+.box-image img {
+  max-width: 100%;
+}
+
 /* Skills */
 .skills-content {
   padding: 10px;
@@ -169,22 +193,6 @@
   object-fit: cover;
   height: 120%;
   display: block 
-}
-
-/* About */
-.about-content {
-  height: 600px;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background: var(--main-bg-color);
-  color: var(--text-dark-color);
-  border: solid 8px var(--text-dark-color);
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
-  font-family: var(--text-font);
-  color: var(--text-dark-color);
-  font-size: 1.5rem;
 }
 
 /* Contact */
