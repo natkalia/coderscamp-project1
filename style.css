@@ -51,6 +51,24 @@
   font-size: 2rem;
 }
 
+.btn {
+  display: inline-block;
+  min-width: 120px;
+  min-height: 70px;
+  margin: 12px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-dark-color);
+  font-family: var(--text-font);
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  border: solid 8px var(--text-dark-color);
+  background-color: var(--text-light-color);
+}
+
 /* Welcome */
 .welcome-outer {
   height: 100vh;
@@ -63,18 +81,6 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
-}
-
-.nav-link {
-  margin: 4px 8px;
-  padding: 4px 8px;
-  font-size: 24px;
-  text-decoration: none;
-  font-weight: 700;
-  font-family: var(--heading-font);
-  color: var(--text-dark-color);
-  border: solid 8px var(--text-dark-color);
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
 }
 
 .welcome-headings {
@@ -240,23 +246,6 @@ textarea {
 
 ::placeholder {
   color: var(--text-light-color);
-}
-
-.btn {
-  display: inline-block;
-  min-width: 160px;
-  margin: 24px auto 0 auto;
-  padding: 16px;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  color: var(--text-dark-color);
-  border: solid 8px;
-  font-family: var(--text-font);
-  font-weight: 700;
-  border-color: var(--text-dark-color);
-  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 /* Footer */
