@@ -1,13 +1,11 @@
 /* Variables */
 :root {
-  --main-bg-color: white;
-  --second-bg-color:  lightgrey;
-
   --text-font: "Inconsolata", monospace;
   --heading-font: "Montserrat", sans-serif;
 
-  --text-dark-color: black;
-  --text-light-color: white;
+  --dark-color: #1e272e;
+  --light-color: #fff;
+  --orange-color: #cd6133;
 }
 
 /* Global */
@@ -36,7 +34,7 @@
 }
 
 .section-description {
-  color: var(--text-dark-color);
+  color: var(--dark-color);
   text-align: left;
   padding: 20px 0;
 }
@@ -60,13 +58,13 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  color: var(--text-dark-color);
+  color: var(--dark-color);
   font-family: var(--text-font);
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
-  border: solid 8px var(--text-dark-color);
-  background-color: var(--text-light-color);
+  border: solid 8px var(--dark-color);
+  background-color: var(--light-color);
 }
 
 /* Welcome */
@@ -85,7 +83,7 @@
 
 .welcome-headings {
   text-align: center;
-  color: var(--text-dark-color);
+  color: var(--dark-color);
   font-family: var(--heading-font);
 }
 
@@ -104,12 +102,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: var(--main-bg-color);
-  color: var(--text-dark-color);
-  border: solid 8px var(--text-dark-color);
+  background: var(--light-color);
+  color: var(--dark-color);
+  border: solid 8px var(--dark-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
   font-family: var(--text-font);
-  color: var(--text-dark-color);
+  color: var(--dark-color);
   font-size: 1.5rem;
 }
 
@@ -127,9 +125,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: var(--main-bg-color);
-  color: var(--text-dark-color);
-  border: solid 8px var(--text-dark-color);
+  background: var(--light-color);
+  color: var(-dark-color);
+  border: solid 8px var(--dark-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
 }
 
@@ -150,7 +148,7 @@
   width: 80px;
   background-color: transparent;
   font-size: 40px;
-  border: solid 8px var(--text-dark-color);
+  border: solid 8px var(--dark-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
 }
 
@@ -159,13 +157,13 @@
   align-self: center;
   font-family: var(--heading-font);
   font-size: 1.5rem;
-  color: var(--text-dark-color);
+  color: var(--dark-color);
 }
 
 .card-wording {
   font-size: 1.2rem;
   font-family: var(--text-font);
-  color: var(--text-dark-color);
+  color: var(--dark-color);
 }
 
 /* Projects */
@@ -182,9 +180,9 @@
   margin: 20px 0;
   width: 46%;
   max-height: 340px;
-  background: var(--main-bg-color);
-  color: var(--text-dark-color);
-  border: solid 8px var(--text-dark-color);
+  background: var(--light-color);
+  color: var(--dark-color);
+  border: solid 8px var(--dark-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
   overflow: hidden;
 }
@@ -200,7 +198,7 @@
   width: 100%;
   height: 100%;
   display: none;
-  background-color: black;
+  background-color: var(--dark-color);
   position: absolute;
   top: 0;
   left: 0;
@@ -209,7 +207,7 @@
 
 .card-text p {
   font-family: var(--text-font);
-  color: var(--text-light-color);
+  color: var(--light-color);
   font-size: 1.5rem;
   font-weight: 700;
   position: absolute;
@@ -230,13 +228,13 @@
   align-items: center;
   margin: 20px 0;
   padding: 20px;
-  background: var(--main-bg-color);
-  color: var(--text-dark-color);
+  background: var(--light-color);
+  color: var(--dark-color);
   border: solid 8px;
-  border-color: var(--text-dark-color);
+  border-color: var(--dark-color);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   font-family: var(--text-font);
-  color: var(--text-dark-color);
+  color: var(--dark-color);
   font-size: 1.5rem;
 }
 
@@ -255,18 +253,17 @@
 input, textarea {
   display: block;
   border: none;
-  border-bottom: 3px solid var(--text-dark-color);
+  border-bottom: 3px solid var(--dark-color);
   width: 100%;
   font-size: 1.2rem;
   margin: 10px 0;
   font-family: var(--text-font);
   font-size: 1.4rem;
-  color: darkorange;
+  color: var(--orange-color);
 }
 
 input {
   height: 30px;
-
 }
 
 textarea {
@@ -274,7 +271,7 @@ textarea {
 }
 
 ::placeholder {
-  color: var(--text-light-color);
+  color: var(--light-color);
 }
 
 /* Footer */
@@ -301,8 +298,8 @@ textarea {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background-color: var(--text-dark-color);
-  color: var(--text-light-color);
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .social-icon:hover {
