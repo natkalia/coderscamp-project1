@@ -183,7 +183,7 @@
   max-height: 340px;
   background: var(--light-color);
   color: var(--dark-color);
-  border: solid 8px var(--dark-color);
+  border: solid 8px var(--orange-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
   overflow: hidden;
 }
