@@ -73,6 +73,11 @@
   background-color: var(--light-color);
 }
 
+.btn:hover {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
 /* Welcome */
 .welcome-outer {
   height: 100vh;
