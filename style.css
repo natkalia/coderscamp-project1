@@ -173,6 +173,30 @@
   font-size: 1.2rem;
   font-family: var(--text-font);
   color: var(--dark-color);
+  font-weight: 700;
+}
+.css-animation {
+  font-size: 1.2rem;
+  font-family: var(--text-font);
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+.css-animation p {
+  color: var(--orange-color);
+}
+
+.css-animation span {
+  opacity: 0;
+  display: block;
+  font-style: italic;
+  color: var(--dark-color);
+}
+
+.css-animation:active span {
+  opacity: 1;
+  font-size:1.2rem;
+  color: var
 }
 
 /* Projects */
