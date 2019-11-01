@@ -77,32 +77,25 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .welcome-navigation {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center; 
 }
 
 .welcome-headings {
-  width: 100%;
+  width: 80%;
+  margin: 60px auto;
   text-align: center;
   color: var(--dark-color);
   font-family: var(--heading-font);
 }
 
-.welcome-headings span {
-  display: block;
-}
-
 .page-heading {
   font-size: 3rem;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* About */
@@ -146,7 +139,6 @@
   width: 33.3333%;
   display: flex;
   flex-direction: column;
-  align-items: left;
   padding: 20px;
   text-align: left;
 }
@@ -320,14 +312,36 @@ textarea {
   transform: scale(1.4);
 }
 
-
 /* Media */
 @media (max-width: 767px) {
 
-  /*Global*/
+  /* Global */
   .wrapper {
-    background-position: left;
-    /* animation: none; */
+    background-position: 45% 50%;
+    animation: none;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .btn {
+    margin: 2px;
+  }
+
+  /* Welcome */
+
+  .welcome-navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .welcome-headings {
+    margin: 4px auto;
+  }
+
+  .page-heading {
+    font-size: 1.8rem;
   }
 
   /* About */
@@ -338,6 +352,7 @@ textarea {
   .box-text {
     order: 2;
     width: 100%;
+    text-align: justify;
   }
   .box-image {
     order: 1;
@@ -352,6 +367,8 @@ textarea {
 
   .skills-card-outer {
     width: 100%;
+    padding: 20px 5px;
+    text-align: justify;
   }
 
   /* Projects */
