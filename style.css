@@ -430,6 +430,11 @@ textarea {
     width: 100%;
   }
 
+  .card-text {
+    opacity: 1;
+    position: static;
+  }
+
   .card-text h4 {
     font-size: 1.3rem;
   }
