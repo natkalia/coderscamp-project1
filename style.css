@@ -73,7 +73,7 @@
   background-color: var(--light-color);
 }
 
-.btn:hover {
+.btn:hover, .btn:active {
   background-color: var(--dark-color);
   color: var(--light-color);
 }
@@ -438,4 +438,5 @@ textarea {
   .card-text p {
     font-size: 1rem;
   }
+ 
 }
