@@ -211,7 +211,6 @@
   position: relative;
   margin: 20px 0;
   width: 46%;
-  max-height: 340px;
   background: var(--light-color);
   color: var(--dark-color);
   border: solid 8px var(--orange-color);
