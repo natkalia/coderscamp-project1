@@ -216,6 +216,7 @@
   border: solid 8px var(--orange-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
   overflow: hidden;
+  display: block;
 }
 
 .projects-content img {
@@ -454,7 +455,7 @@ textarea {
 }
 
 .projects-card-outer {
-  width: 100%;
+  width: 80%;
 }
 
 .card-text {
