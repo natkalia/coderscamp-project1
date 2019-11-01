@@ -335,7 +335,8 @@ textarea {
   /* Global */
   .wrapper {
     animation: none;
-    background-attachment: scroll;
+    background-position-x: center;
+    background-position-y: center;
   }
 
   .container {
