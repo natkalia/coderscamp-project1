@@ -120,11 +120,11 @@
   font-size: 1.5rem;
 }
 
-.card-text, .card-image {
+.card-about-text, .card-about-image {
   width: 50%;
 }
 
-.card-image img {
+.card-about-image img {
   max-width: 100%;
   filter: grayscale(100%) contrast(170%);
 }
@@ -375,12 +375,12 @@ textarea {
     flex-direction: column;
   }
 
-  .card-text {
+  .card-about-text {
     order: 2;
     width: 100%;
     text-align: justify;
   }
-  .card-image {
+  .card-about-image {
     order: 1;
     width: 100%;
   } 
