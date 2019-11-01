@@ -335,6 +335,7 @@ textarea {
   /* Global */
   .wrapper {
     animation: none;
+    background-attachment: scroll;
   }
 
   .container {
@@ -422,21 +423,27 @@ textarea {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Global */
+  .wrapper {
+    animation: none;
+    background-attachment: scroll;
+  }
   
-/* Projects */
-.projects-content {
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
+  /* Projects */
+  .projects-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.projects-card-outer {
-  width: 80%;
-}
+  .projects-card-outer {
+    width: 80%;
+  }
 
-.card-text {
-  opacity: 1;
-  position: static;
-}
+  .card-text {
+    opacity: 1;
+    position: static;
+  }
 
 }
