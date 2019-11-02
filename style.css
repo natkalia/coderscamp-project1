@@ -424,14 +424,6 @@ textarea {
     opacity: 1;
     position: static;
   }
-
-  .card-text h4 {
-    font-size: 1.3rem;
-  }
-  
-  .card-text p {
-    font-size: 1rem;
-  }
     
   /* Contact */
   .contact-outer {
