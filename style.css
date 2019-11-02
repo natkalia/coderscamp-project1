@@ -432,6 +432,11 @@ textarea {
   .card-text p {
     font-size: 1rem;
   }
+    
+  /* Contact */
+  .contact-outer {
+    padding-bottom: 60px;
+  }
 
   /* Footer */
   .footer-outer {
@@ -484,6 +489,7 @@ textarea {
   .contact-outer {
     padding-bottom: 60px;
   }
+
   /* Footer */
   .footer-outer {
     background-color: var(--orange-color);
