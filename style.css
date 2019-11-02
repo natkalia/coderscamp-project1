@@ -16,17 +16,11 @@
   padding: 0;
 }
 
-@keyframes move-background {
-	0% { background-position: 0% 0% }
-  100% { background-position: 25% 25% }
-}
-
 .wrapper {
   height: 100%;
   background-image: url("assets/background.jpg");
   background-size: cover;
   background-attachment: fixed;
-  animation: move-background 2s ease-out forwards;
 }
 
 .container {
@@ -95,14 +89,27 @@
 
 .welcome-headings {
   width: 80%;
-  margin: 60px auto;
+  margin: 10% auto;
   text-align: center;
   color: var(--dark-color);
   font-family: var(--heading-font);
 }
 
+@keyframes heading-animation { 
+  0% { opacity: 1; left: -800px; }
+  100% { opacity: 1; left: -10px;}
+}
+
 .page-heading {
   font-size: 3.5rem;
+  position: relative;
+  animation: heading-animation 1s linear;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+p.page-heading {
+  animation-delay: 1s;
 }
 
 /* About */
@@ -379,7 +386,13 @@ textarea {
   }
 
   .page-heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    opacity: 1;
+    animation: none;
+  }
+
+  p.page-heading {
+    animation: none;
   }
 
   /* About */
@@ -459,6 +472,16 @@ textarea {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 200% 100%;
+  }
+
+  .page-heading {
+    font-size: 3rem;
+    opacity: 1;
+    animation: none;
+  }
+
+  p.page-heading {
+    animation: none;
   }
   
   /* Projects */
