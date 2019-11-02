@@ -3,7 +3,8 @@
   --text-font: "Inconsolata", monospace;
   --heading-font: "Montserrat", sans-serif;
 
-  --dark-color: #1e272e;
+  --dark-color: #303030;
+  --medium-color: #d3d3d3;
   --light-color: #fff;
   --orange-color: #cd6133;
 }
@@ -245,7 +246,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
   padding: 20px;
   background: var(--light-color);
   color: var(--dark-color);
@@ -346,6 +346,14 @@ textarea {
     margin: 2px;
   }
 
+  section {
+    background-color: var(--medium-color);
+  }
+
+  .section {
+    margin: 0;
+  }
+
   .section-heading {
     font-size: 2.5rem;
   }
@@ -355,7 +363,6 @@ textarea {
   }
 
   /* Welcome */
-
   .welcome-outer {
     background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
@@ -426,7 +433,12 @@ textarea {
   .card-text p {
     font-size: 1rem;
   }
- 
+
+  /* Footer */
+  .footer-outer {
+    background-color: var(--orange-color);
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -435,6 +447,14 @@ textarea {
   .wrapper {
     animation: none;
     background: none;
+  }
+
+  section {
+    background-color: var(--medium-color);
+  }
+
+  .section {
+    margin: 0;
   }
 
   /* Welcome */
@@ -460,5 +480,14 @@ textarea {
     opacity: 1;
     position: static;
   }
-
+  
+  /* Contact */
+  .contact-outer {
+    padding-bottom: 60px;
+  }
+  /* Footer */
+  .footer-outer {
+    background-color: var(--orange-color);
+    margin: 0;
+  }
 }
