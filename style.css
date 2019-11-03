@@ -214,13 +214,10 @@ h2.page-heading {
 
 .projects-card-text h4 {
   font-size: 1.8rem;
-  text-align: center;
-  width: 100%;
 }
 
 .projects-card-text p {
   font-size: 1.5rem;
-  width: 100%;
   margin-top: 15px;
 }
 
@@ -231,9 +228,7 @@ h2.page-heading {
 /* Contact */
 .contact-content {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
   padding: 20px;
   background: var(--light-color);
   border: solid 8px;
