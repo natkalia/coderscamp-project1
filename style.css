@@ -76,6 +76,10 @@ section {
   color: var(--light-color);
 }
 
+span {
+  color: var(--orange-color);
+}
+
 /* Welcome */
 header {
   height: 100vh;
@@ -117,10 +121,6 @@ header h2 {
 
 header h3 {
   animation-delay: 2s;
-}
-
-header span {
-  color: var(--orange-color);
 }
 
 /* About */
