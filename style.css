@@ -323,6 +323,7 @@ footer i:hover {
   section {
     background-color: var(--medium-color);
     margin: 0 auto;
+    padding: 10px 0;
   }
 
   .section-description h2 {
@@ -400,16 +401,11 @@ footer i:hover {
     opacity: 1;
     position: static;
   }
-    
-  /* Contact */
-  .contact-outer {
-    padding-bottom: 60px;
-  }
 
   /* Footer */
   footer {
     background-color: var(--orange-color);
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
@@ -424,6 +420,7 @@ footer i:hover {
   section {
     background-color: var(--medium-color);
     margin: 0 auto;
+    padding: 10px 0;
   }
 
   /* Welcome */
@@ -459,15 +456,10 @@ footer i:hover {
     opacity: 1;
     position: static;
   }
-  
-  /* Contact */
-  .contact-outer {
-    padding-bottom: 60px;
-  }
 
   /* Footer */
   footer {
     background-color: var(--orange-color);
-    margin: 0;
+    margin: 0 auto;
   }
 }
