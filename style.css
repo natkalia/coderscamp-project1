@@ -21,6 +21,8 @@
   background-image: url("assets/background.jpg");
   background-size: cover;
   background-attachment: fixed;
+  color: var(--dark-color);
+  font-family: var(--text-font);
 }
 
 .container {
@@ -34,7 +36,6 @@
 }
 
 .section-description {
-  color: var(--dark-color);
   text-align: left;
   padding: 20px;
 }
@@ -46,7 +47,6 @@
 }
 
 .section-subheading {
-  font-family: var(--text-font);
   font-size: 2rem;
   margin: 10px 0;
 }
@@ -91,7 +91,6 @@ header div {
   width: 80%;
   margin: 10px auto;
   text-align: center;
-  color: var(--dark-color);
   font-family: var(--heading-font);
 }
 
@@ -120,11 +119,8 @@ p.page-heading {
   justify-content: center;
   align-items: center;
   background: var(--light-color);
-  color: var(--dark-color);
   border: solid 8px var(--dark-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
-  font-family: var(--text-font);
-  color: var(--dark-color);
   font-size: 1.5rem;
 }
 
@@ -144,7 +140,6 @@ p.page-heading {
   flex-direction: row;
   justify-content: space-around;
   background: var(--light-color);
-  color: var(-dark-color);
   border: solid 8px var(--dark-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
 }
@@ -174,13 +169,10 @@ p.page-heading {
   align-self: center;
   font-family: var(--heading-font);
   font-size: 1.5rem;
-  color: var(--dark-color);
 }
 
 .card-wording {
   font-size: 1.5rem;
-  font-family: var(--text-font);
-  color: var(--dark-color);
   font-weight: 700;
 }
 
@@ -197,7 +189,6 @@ p.page-heading {
   margin: 20px 0;
   width: 46%;
   background: var(--light-color);
-  color: var(--dark-color);
   border: solid 8px var(--orange-color);
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
   overflow: hidden;
@@ -220,7 +211,6 @@ p.page-heading {
   top: 0;
   left: 0;
   text-align: left;
-  font-family: var(--text-font);
   color: var(--light-color);
   font-weight: 700;
   display: flex;
@@ -255,12 +245,9 @@ p.page-heading {
   align-items: center;
   padding: 20px;
   background: var(--light-color);
-  color: var(--dark-color);
   border: solid 8px;
   border-color: var(--dark-color);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  font-family: var(--text-font);
-  color: var(--dark-color);
   font-size: 1.5rem;
 }
 
@@ -287,12 +274,12 @@ input, textarea {
   width: 100%;
   font-size: 1.5rem;
   margin: 10px 0;
-  font-family: var(--text-font);
   color: var(--orange-color);
 }
 
 input {
   height: 30px;
+  font-family: var(--text-font);
 }
 
 textarea {
