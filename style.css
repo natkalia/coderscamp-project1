@@ -310,7 +310,7 @@ footer i:hover {
 }
 
 /* Media */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
 
   /* Global */
   .wrapper {
@@ -337,11 +337,11 @@ footer i:hover {
   }
 
   /* Welcome */
- header {
-    background-image: url("assets/background.jpg");
+  header {
+    background-image: url("assets/background-small.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 270% 100%;
+    background-size: 100% 100%;
   }
 
   nav {
@@ -410,7 +410,7 @@ footer i:hover {
   }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
 
   /* Global */
   .wrapper {
@@ -426,10 +426,10 @@ footer i:hover {
 
   /* Welcome */
   header {
-    background-image: url("assets/background.jpg");
+    background-image: url("assets/background-small.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200% 100%;
+    background-size: 100% 100%;
   }
 
   header h1, header h2 {
