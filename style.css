@@ -40,13 +40,13 @@ section {
   padding: 20px;
 }
 
-.section-heading {
+.section-description h2 {
   font-family: var(--heading-font);
   font-size: 3.5rem;
   margin: 10px 0;
 }
 
-.section-subheading {
+.section-description h3 {
   font-size: 2rem;
   margin: 10px 0;
 }
@@ -113,7 +113,7 @@ h2.page-heading {
 
 /* About */
 .about-content {
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -344,11 +344,11 @@ textarea {
     margin: 0 auto;
   }
 
-  .section-heading {
+  .section-description h2 {
     font-size: 2.5rem;
   }
 
-  .section-subheading {
+  .section-description h3 {
     font-size: 1.5em;
   }
 
