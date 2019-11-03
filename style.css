@@ -164,14 +164,14 @@ h2.page-heading {
   border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
 }
 
-.card-title {
+.skills-card-outer h4 {
   margin: 20px 0;
   align-self: center;
   font-family: var(--heading-font);
   font-size: 1.5rem;
 }
 
-.card-wording {
+.skills-card-outer p {
   font-size: 1.5rem;
   font-weight: 700;
 }
