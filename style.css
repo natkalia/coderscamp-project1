@@ -474,3 +474,70 @@ footer i:hover {
     margin: 0 auto;
   }
 }
+ 
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+  /* Global */
+  .wrapper {
+    animation: none;
+    background: none;
+  }
+
+  section {
+    background-color: var(--medium-color);
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  /* Welcome */
+  header {
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  header h1, header h2 {
+    font-size: 1.2rem;
+    opacity: 1;
+    animation: none;
+  }
+
+  /* About */
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-card-text {
+    order: 2;
+    width: 100%;
+  }
+
+  .about-card-image {
+    order: 1;
+    width: 100%;
+  }
+
+  /* Projects */
+  .projects-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects-card-outer {
+    width: 80%;
+  }
+
+  .projects-card-text {
+    opacity: 1;
+    position: static;
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--orange-color);
+    margin: 0 auto;
+  }
+}
+
