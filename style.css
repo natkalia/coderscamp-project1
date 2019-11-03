@@ -369,7 +369,7 @@ footer i:hover {
     justify-content: center;
   }
 
-  nav a {
+  nav .btn {
     width: 45%;
     margin: 4px auto;
     padding: 4px;
