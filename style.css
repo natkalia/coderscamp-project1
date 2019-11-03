@@ -62,6 +62,9 @@ section {
   border: solid 8px var(--dark-color);
   background-color: var(--light-color);
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover, .btn:active {
@@ -304,7 +307,7 @@ footer i:hover {
 }
 
 /* Media */
-@media (max-width: 767px) {
+@media (max-width: 600px) {
 
   /* Global */
   .wrapper {
@@ -314,10 +317,6 @@ footer i:hover {
 
   .container {
     padding: 0 20px;
-  }
-
-  .btn {
-    margin: 2px;
   }
 
   section {
@@ -343,8 +342,15 @@ footer i:hover {
   }
 
   nav {
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  nav .btn {
+    width: 45%;
+    margin: 4px auto;
+    padding: 4px;
   }
 
   header div {
