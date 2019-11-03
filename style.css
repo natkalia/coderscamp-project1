@@ -7,6 +7,9 @@
   --medium-color: #d3d3d3;
   --light-color: #fff;
   --orange-color: #cd6133;
+
+  --border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  --border: solid 8px var(--dark-color);
 }
 
 /* Global */
@@ -58,8 +61,8 @@ section {
   color: var(--dark-color);
   font-family: var(--text-font);
   font-size: 1.5rem;
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
-  border: solid 8px var(--dark-color);
+  border-radius: var(--border-radius);
+  border: var(--border);
   background-color: var(--light-color);
   font-weight: 700;
   display: flex;
@@ -118,8 +121,8 @@ h2.page-heading {
   justify-content: center;
   align-items: center;
   background: var(--light-color);
-  border: solid 8px var(--dark-color);
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  border: var(--border);
+  border-radius: var(--border-radius);
   font-size: 1.5rem;
 }
 
@@ -139,8 +142,8 @@ h2.page-heading {
   flex-direction: row;
   justify-content: space-around;
   background: var(--light-color);
-  border: solid 8px var(--dark-color);
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  border: var(--border);
+  border-radius: var(--border-radius);
 }
 
 .skills-card-outer {
@@ -157,9 +160,9 @@ h2.page-heading {
   height: 80px;
   width: 80px;
   background-color: transparent;
-  font-size: 40px;
-  border: solid 8px var(--dark-color);
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  font-size: 40px;  
+  border: var(--border);
+  border-radius: var(--border-radius);
 }
 
 .skills-card-outer h4 {
@@ -187,7 +190,7 @@ h2.page-heading {
   width: 46%;
   background: var(--light-color);
   border: solid 8px var(--orange-color);
-  border-radius: 248px 14px 224px 14px/14px 224px 14px 248px;
+  border-radius: var(--border-radius);
   overflow: hidden;
   display: block;
 }
@@ -234,9 +237,8 @@ h2.page-heading {
   justify-content: center;
   padding: 20px;
   background: var(--light-color);
-  border: solid 8px;
-  border-color: var(--dark-color);
-  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: var(--border);
+  border-radius: var(--border-radius);
   font-size: 1.5rem;
 }
 
