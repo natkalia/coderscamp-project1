@@ -12,6 +12,13 @@
   --border: solid 8px var(--dark-color);
 }
 
+/* Animations */
+
+@keyframes heading-animation { 
+  0% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
 /* Global */
 * {
   box-sizing: border-box;
@@ -102,11 +109,6 @@ header div {
   margin: 0 auto;
   text-align: center;
   font-family: var(--heading-font);
-}
-
-@keyframes heading-animation { 
-  0% { opacity: 1; }
-  100% { opacity: 1; }
 }
 
 header h1, header h2, header h3 {
