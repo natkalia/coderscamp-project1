@@ -51,15 +51,17 @@ section {
   padding: 16px;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .btn {
   display: inline-block;
   min-height: 70px;
   margin: 12px;
   padding: 14px;
-  text-decoration: none;
-  cursor: pointer;
   color: var(--dark-color);
-  
   font-family: var(--heading-font);
   font-size: 1.5rem;
   border-radius: var(--border-radius);
@@ -147,6 +149,10 @@ header h3 {
   padding: 5px;
   border: dashed 8px;
   border-radius: var(--border-radius);
+}
+
+.about-content a {
+  color: var(--orange-color);
 }
 
 /* Skills */
@@ -363,7 +369,7 @@ footer i:hover {
     justify-content: center;
   }
 
-  nav .btn {
+  nav a {
     width: 45%;
     margin: 4px auto;
     padding: 4px;
