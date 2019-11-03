@@ -15,7 +15,8 @@
 /* Animations */
 
 @keyframes heading-animation { 
-  0% { opacity: 1; }
+  0% { opacity: 0; }
+  50% { opacity: 0.5s; }
   100% { opacity: 1; }
 }
 
@@ -114,7 +115,7 @@ header div {
 header h1, header h2, header h3 {
   font-size: 4rem;
   position: relative;
-  animation: heading-animation 1s linear;
+  animation: heading-animation 2.5s ease-in-out;
   animation-fill-mode: forwards;
   opacity: 0;
 }
