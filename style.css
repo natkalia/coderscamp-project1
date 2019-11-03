@@ -98,11 +98,11 @@ header div {
 }
 
 @keyframes heading-animation { 
-  0% { opacity: 1; left: -800px; }
-  100% { opacity: 1; left: -10px;}
+  0% { opacity: 1; }
+  100% { opacity: 1; }
 }
 
-header h1, header h2 {
+header h1, header h2, header h3 {
   font-size: 4rem;
   position: relative;
   animation: heading-animation 1s linear;
@@ -112,6 +112,14 @@ header h1, header h2 {
 
 header h2 {
   animation-delay: 1s;
+}
+
+header h3 {
+  animation-delay: 2s;
+}
+
+header span {
+  color: var(--orange-color);
 }
 
 /* About */
@@ -356,7 +364,7 @@ footer i:hover {
     padding: 4px;
   }
 
-  header h1, header h2 {
+  header h1, header h2, header h3 {
     font-size: 2rem;
     opacity: 1;
     animation: none;
@@ -432,7 +440,7 @@ footer i:hover {
     background-size: 100% 100%;
   }
 
-  header h1, header h2 {
+  header h1, header h2, header h3 {
     font-size: 3rem;
     opacity: 1;
     animation: none;
@@ -497,7 +505,7 @@ footer i:hover {
     background-size: 100% 100%;
   }
 
-  header h1, header h2 {
+  header h1, header h2, header h3 {
     font-size: 1.2rem;
     opacity: 1;
     animation: none;
