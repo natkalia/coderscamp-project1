@@ -290,7 +290,7 @@ textarea {
 }
 
 /* Footer */
-.footer-outer {
+footer {
   padding: 20px 0;
   margin: 0;
   width: 100%;
@@ -300,13 +300,13 @@ textarea {
   align-items: center;
 }
 
-.social-link {
+footer a {
   font-size: 0;
   padding: 10px;
   transition: transform 1s linear;
 }
 
-.social-icon {
+footer i {
   font-size: 30px;
   text-align: center;
   padding: 15px;
@@ -317,7 +317,7 @@ textarea {
   color: var(--light-color);
 }
 
-.social-icon:hover {
+footer i:hover {
   transform: scale(1.4);
 }
 
@@ -427,7 +427,7 @@ textarea {
   }
 
   /* Footer */
-  .footer-outer {
+  footer {
     background-color: var(--orange-color);
     margin: 0;
   }
@@ -486,7 +486,7 @@ textarea {
   }
 
   /* Footer */
-  .footer-outer {
+  footer {
     background-color: var(--orange-color);
     margin: 0;
   }
