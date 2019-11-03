@@ -107,7 +107,7 @@ header div {
   opacity: 0;
 }
 
-p.page-heading {
+h2.page-heading {
   animation-delay: 1s;
 }
 
