@@ -210,7 +210,7 @@ header h3 {
 .projects-card-outer {
   position: relative;
   margin: 20px 0;
-  width: 46%;
+  width: 48%;
   background: var(--light-color);
   border: solid 8px var(--orange-color);
   border-radius: var(--border-radius);
