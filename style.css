@@ -202,7 +202,7 @@ h2.page-heading {
   display: block;
 }
 
-.card-text {
+.projects-card-text {
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -219,20 +219,20 @@ h2.page-heading {
   padding: 20px;
 }
 
-.card-text h4 {
+.projects-card-text h4 {
   font-size: 1.8rem;
   text-align: center;
   width: 100%;
 }
 
-.card-text p {
+.projects-card-text p {
   font-size: 1.5rem;
   text-align: left;
   width: 100%;
   margin-top: 15px;
 }
 
-.projects-card-outer:hover .card-text {
+.projects-card-outer:hover .projects-card-text {
   opacity: 1;
 }
 
@@ -416,7 +416,7 @@ footer i:hover {
     width: 100%;
   }
 
-  .card-text {
+  .projects-card-text{
     opacity: 1;
     position: static;
   }
@@ -475,7 +475,7 @@ footer i:hover {
     width: 80%;
   }
 
-  .card-text {
+  .projects-card-text {
     opacity: 1;
     position: static;
   }
