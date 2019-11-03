@@ -438,6 +438,20 @@ footer i:hover {
     animation: none;
   }
   
+  /* About */
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-card-text {
+    order: 2;
+    width: 100%;
+  }
+  .about-card-image {
+    order: 1;
+    width: 100%;
+  } 
+
   /* Projects */
   .projects-content {
     flex-wrap: wrap;
