@@ -125,11 +125,11 @@ h2.page-heading {
   font-size: 1.5rem;
 }
 
-.card-about-text, .card-about-image {
+.about-card-text, .about-card-image {
   width: 50%;
 }
 
-.card-about-image img {
+.about-card-image img {
   max-width: 100%;
   filter: grayscale(100%) contrast(170%);
 }
@@ -383,12 +383,12 @@ footer i:hover {
     flex-direction: column;
   }
 
-  .card-about-text {
+  .about-card-text {
     order: 2;
     width: 100%;
     text-align: justify;
   }
-  .card-about-image {
+  .about-card-image {
     order: 1;
     width: 100%;
   } 
