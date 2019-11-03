@@ -101,15 +101,15 @@ header div {
   100% { opacity: 1; left: -10px;}
 }
 
-.page-heading {
-  font-size: 3.5rem;
+header h1, header h2 {
+  font-size: 4rem;
   position: relative;
   animation: heading-animation 1s linear;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
-h2.page-heading {
+header h2 {
   animation-delay: 1s;
 }
 
@@ -359,13 +359,9 @@ footer i:hover {
     margin: 4px auto;
   }
 
-  .page-heading {
-    font-size: 1.5rem;
+  header h1, header h2 {
+    font-size: 2rem;
     opacity: 1;
-    animation: none;
-  }
-
-  p.page-heading {
     animation: none;
   }
 
@@ -417,7 +413,7 @@ footer i:hover {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
 
   /* Global */
   .wrapper {
@@ -439,13 +435,9 @@ footer i:hover {
     background-size: 200% 100%;
   }
 
-  .page-heading {
+  header h1, header h2 {
     font-size: 3rem;
     opacity: 1;
-    animation: none;
-  }
-
-  p.page-heading {
     animation: none;
   }
   
