@@ -24,6 +24,7 @@
   color: var(--dark-color);
   font-family: var(--text-font);
   font-weight: 700;
+  text-align: left;
 }
 
 .container {
@@ -37,7 +38,6 @@ section {
 }
 
 .section-description {
-  text-align: left;
   padding: 20px;
 }
 
@@ -57,7 +57,6 @@ section {
   min-height: 70px;
   margin: 12px;
   padding: 14px;
-  text-align: center;
   text-decoration: none;
   cursor: pointer;
   color: var(--dark-color);
@@ -150,7 +149,6 @@ h2.page-heading {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  text-align: left;
 }
 
 .card-icon {
@@ -210,7 +208,6 @@ h2.page-heading {
   position: absolute;
   top: 0;
   left: 0;
-  text-align: left;
   color: var(--light-color);
   display: flex;
   flex-direction: column;
@@ -227,7 +224,6 @@ h2.page-heading {
 
 .projects-card-text p {
   font-size: 1.5rem;
-  text-align: left;
   width: 100%;
   margin-top: 15px;
 }
@@ -386,7 +382,6 @@ footer i:hover {
   .about-card-text {
     order: 2;
     width: 100%;
-    text-align: justify;
   }
   .about-card-image {
     order: 1;
@@ -402,7 +397,6 @@ footer i:hover {
   .skills-card-outer {
     width: 100%;
     padding: 20px 5px;
-    text-align: justify;
   }
 
   /* Projects */
