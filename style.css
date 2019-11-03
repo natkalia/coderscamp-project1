@@ -237,20 +237,15 @@ h2.page-heading {
   font-size: 1.5rem;
 }
 
-.contact-card-form, .contact-card-button {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.contact-card-button {
+form div {
   align-self: center;
-}
-
-.contact-image {
-  width: 90%;
-  filter: contrast(120%) saturate(0); 
 }
 
 input, textarea {
