@@ -80,6 +80,7 @@ header {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 nav {
@@ -91,7 +92,7 @@ nav {
 
 header div {
   width: 80%;
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: center;
   font-family: var(--heading-font);
 }
@@ -353,10 +354,6 @@ footer i:hover {
     width: 45%;
     margin: 4px auto;
     padding: 4px;
-  }
-
-  header div {
-    margin: 4px auto;
   }
 
   header h1, header h2 {
