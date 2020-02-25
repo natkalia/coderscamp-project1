@@ -7,9 +7,9 @@ Portfolio website created as Project 1 for CodersCamp 2019. :balloon:
 ## Technologies
 Project is built with pure:
 * HTML
-* CSS
+* CSS (with CSS variables)
 
-## Images sources
+## Credits
 * Background images downloaded from:[https://unsplash.com/](https://unsplash.com)
 * Other images except author's photo downloaded from:[https://www.rawpixel.com/](https://www.rawpixel.com/)
 
